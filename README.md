@@ -135,7 +135,7 @@ No credentials, no Snowflake, no network. The demo swaps the two boundaries — 
 client and the warehouse — for local doubles and runs the real engine between them.
 
 ```bash
-git clone https://github.com/chino-bot1701/erp-snowflake-elt.git
+git clone https://github.com/Paz-RangelR/erp-snowflake-elt.git
 cd erp-snowflake-elt
 python scripts/run_demo.py
 ```
