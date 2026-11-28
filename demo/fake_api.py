@@ -83,7 +83,7 @@ def _valor(campo: str, i: int, rng: random.Random):
     if "pais" in c:
         return "Mexico"
     if "correo" in c or "email" in c:
-        return f"contacto{i:03d}@almena.mx"
+        return f"contacto{i:03d}@almena.example"
     if "telefono" in c or "tel" == c:
         return f"55{rng.randint(10000000, 99999999)}"
     if "estatus" in c or "status" in c:
